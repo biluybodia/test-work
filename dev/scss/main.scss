@@ -1,0 +1,42 @@
+@import "normalize";
+@import "fonts";
+@import "mixins";
+
+.main-section {
+  max-width: 1400px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  h2 {
+    @include section-main-title;
+    text-transform: uppercase;
+  }
+}
+
+.smth-service {
+  &__title {
+
+  }
+  &__items {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 98px;
+  }
+  &-item {
+    width: 50%;
+    &__icon {
+
+    }
+    &__title {
+      font-size: 32px;
+      font-family: $MainFont;
+      font-weight: 900;
+    }
+    &__content {
+      font-family: $MainFont;
+      font-size: 18px;
+      line-height: 28px;
+      color: #8796ae;
+    }
+  }
+}

@@ -19,8 +19,8 @@ var gulp = require('gulp'),
 /////////////////////////////////
 
 gulp.task('styles', function () {
-    return gulp.src('dev/scss/*.scss')
-        .pipe(rename("main.scss"))
+    return gulp.src('dev/scss/**/*.scss')
+        // .pipe(rename("main.scss"))
         .pipe(plumber())
         .pipe(sass())
         .on("error", notify.onError(function(error) {

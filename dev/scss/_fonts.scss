@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/ProximaNova-Black.otf");
+}
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/ProximaNova-Black.otf");
+}
+@font-face {
+  font-family: 'Proxima';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/ProximaNova-Light.otf");
+}
+
+$MainFont: 'Proxima', Helvetica, Arial, sans-serif;
+
+@mixin section-main-title {
+  font-family: $MainFont;
+  font-size: 48px;
+  line-height: 1.4;
+}
