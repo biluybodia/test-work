@@ -2,58 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
     <title>Title</title>
     <link href="./static/css/main.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
 <main>
     <section class="main-section smth-service">
-        <h2 class="smth-service__title">Something as a service</h2>
+        <div class="container smth-service__wrapper">
+            <h2 class="smth-service__title">Something<br> as a service</h2>
 
-        <div class="smth-service__items">
-            <div class="smth-service-item">
-                <div class="smth-service-item__icon">
-                    <img src="static/img/svg-icon/digital-identity.svg" alt="Digital identity">
+            <div class="smth-service__items">
+                <div class="smth-service-item" data-aos="fade-up" data-aos-easing="ease-in-out">
+                    <div class="smth-service-item__icon">
+                        <img src="static/img/svg-icon/digital-identity.svg" alt="Digital identity">
+                    </div>
+                    <h3 class="smth-service-item__title">Digital identity</h3>
+                    <p class="smth-service-item__content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
                 </div>
-                <h3 class="smth-service-item__title">Digital identity</h3>
-                <p class="smth-service-item__content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+
+                <div class="smth-service-item" data-aos="fade-up" data-aos-easing="ease-in-out">
+                    <div class="smth-service-item__icon">
+                        <img src="static/img/svg-icon/digital-identity.svg" alt="Digital identity">
+                    </div>
+                    <h3 class="smth-service-item__title">Digital identity</h3>
+                    <p class="smth-service-item__content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+
+                <div class="smth-service-item" data-aos="fade-up" data-aos-easing="ease-in-out">
+                    <div class="smth-service-item__icon">
+                        <img src="static/img/svg-icon/digital-identity.svg" alt="Digital identity">
+                    </div>
+                    <h3 class="smth-service-item__title">Digital identity</h3>
+                    <p class="smth-service-item__content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+
+                <div class="smth-service-item" data-aos="fade-up" data-aos-easing="ease-in-out">
+                    <div class="smth-service-item__icon">
+                        <img src="static/img/svg-icon/digital-identity.svg" alt="Digital identity">
+                    </div>
+                    <h3 class="smth-service-item__title">Digital identity</h3>
+                    <p class="smth-service-item__content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
             </div>
-
-            <div class="smth-service-item">
-                <div class="smth-service-item__icon">
-                    <img src="static/img/svg-icon/digital-identity.svg" alt="Digital identity">
-                </div>
-                <h3 class="smth-service-item__title">Digital identity</h3>
-                <p class="smth-service-item__content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-
-            <div class="smth-service-item">
-                <div class="smth-service-item__icon">
-                    <img src="static/img/svg-icon/digital-identity.svg" alt="Digital identity">
-                </div>
-                <h3 class="smth-service-item__title">Digital identity</h3>
-                <p class="smth-service-item__content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-            </div>
-
-            <div class="smth-service-item">
-                <div class="smth-service-item__icon">
-                    <img src="static/img/svg-icon/digital-identity.svg" alt="Digital identity">
-                </div>
-                <h3 class="smth-service-item__title">Digital identity</h3>
-                <p class="smth-service-item__content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+        </div>
+        <div class="smth-lightpaper">
+            <div class="smth-lightpaper-container">
+                <h3 class="smth-lightpaper__title">Our<br> lightpaper</h3>
+                <p class="smth-lightpaper__content" data-aos="fade-up" data-aos-easing="ease-in-out">Team is currently working on all its documents.</p>
+                <a href="#" class="smth-lightpaper__btn">Download</a>
+                <img src="./static/img/smth-lightpaper-book.png" alt="smth-book" class="smth-lightpaper__img">
             </div>
         </div>
     </section>
+    <section class="main-section smth-search">
+        <div class="container smth-search__wrapper">
+            <h2 class="smth-search__title">Something search<br> product</h2>
+        </div>
+    </section>
 </main>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
 
+    AOS.init();
+
+    // register the effect with GSAP:
+    //
+    // var test = document.querySelectorAll(".default-animation");
+    // var t = new TimelineMax;
+    //
+    // t.to(test, 1, {opacity: 1, y: 0});
+
+</script>
 </body>
 </html>
