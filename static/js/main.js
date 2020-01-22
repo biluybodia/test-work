@@ -1,1 +1,1 @@
-"use strict";
+"use strict";AOS.init({duration:800});
